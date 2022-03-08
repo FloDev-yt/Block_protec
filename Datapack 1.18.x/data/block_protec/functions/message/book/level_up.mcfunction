@@ -1,0 +1,2 @@
+tellraw @s ["","\n",{"score":{"name":"#diamond","objective":"bp_diamond"},"color":"green"},{"text":" prélevés","color":"green"},"\n",{"text":"Bloc de protection passé au niveau suivant","color":"green"}]
+playsound minecraft:entity.player.levelup block @a

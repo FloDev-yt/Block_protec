@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "block_protec:block_protec_lv1_2"
+        }
+      }
+    },
+    "rewards": {
+      "function": "block_protec:global/craft_schedule"
+    }
+  }
+  

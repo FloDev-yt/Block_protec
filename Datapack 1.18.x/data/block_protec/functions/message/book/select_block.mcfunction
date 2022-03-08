@@ -1,0 +1,1 @@
+tellraw @s {"text":"Sélectionner le bloc à faire évoluer","color":"green","hoverEvent":{"action":"show_text","contents":{"text":"Fait un clique droit dessus"}}}

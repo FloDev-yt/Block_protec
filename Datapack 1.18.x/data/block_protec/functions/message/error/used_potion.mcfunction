@@ -1,0 +1,1 @@
+tellraw @s ["","\n",{"text":"Il est interdit de lancer certaine potion dans une zone dont vous n'êtes pas membre","color":"red"}]

@@ -1,0 +1,21 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{}],CustomModelData:1771114,display:{Name:'{\"text\":\"Block protec lv 4\"}',Lore:['{\"text\":\"Protéger une zone de :\"}','{\"text\":\"71x ∞ x71\"}','{\"text\":\"centré sur le bloc\"}']},SkullOwner:{Id:[I;-1288874565,278350816,-1403704286,346473726],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiZjgwN2FmZTk4OWY4MTFkMmM0NWUyNzE5ZGZlNDRiMTIxYTA1YjNkMjlmNzhmM2MwZjlmNDlmZmViZTRmIn19fQ==\"}]}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

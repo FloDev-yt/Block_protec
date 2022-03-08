@@ -1,0 +1,3 @@
+execute as @e[scores={bp_area=1..}] if score @s bp_idArea = @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idArea if score @s bp_idUpdate < @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idUpdate run function block_protec:update/upgrade
+# 
+execute as @e[scores={bp_area=1..}] if score @s bp_idArea = @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idArea if score @s bp_idUpdate = @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idUpdate run scoreboard players operation @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_nbExtUpdate > @s bp_nbExtUpdate

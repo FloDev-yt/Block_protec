@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {},
+        "entity": {
+          "type": "minecraft:armor_stand",
+          "team": "bp_rightClick"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "block_protec:right_click/rightclick_adv"
+  }
+}

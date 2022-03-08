@@ -1,0 +1,1 @@
+execute as @a[advancements={block_protec:craft_block_protec=true}] run function block_protec:global/craft

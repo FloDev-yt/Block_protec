@@ -1,0 +1,1 @@
+tellraw @s ["","\n",{"text":"Vous ne pouvez pas executer cette action sur un bloc principal","color":"red"}]

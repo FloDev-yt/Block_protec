@@ -1,0 +1,1 @@
+tellraw @s {"text":"Vous n'avez pas de membre à afficher","color":"red","hoverEvent":{"action":"show_text","contents":[""]}}

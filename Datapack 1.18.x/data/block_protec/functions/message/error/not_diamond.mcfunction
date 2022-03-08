@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Vous n'avez pas ","color":"red"},{"score":{"name":"#diamond","objective":"bp_diamond"},"color":"red"},{"text":" diamants dans votre inventaire","color":"red"}]

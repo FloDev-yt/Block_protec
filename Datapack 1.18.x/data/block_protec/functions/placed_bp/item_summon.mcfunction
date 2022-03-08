@@ -1,0 +1,2 @@
+kill @e[name=bp_item,distance=..0.3]
+summon area_effect_cloud ~ ~-0.12 ~ {Duration:2147483647,CustomName:"\"bp_item\"",Passengers:[{id:"minecraft:item",CustomName:"\"bp_item\"",Item:{id:"minecraft:written_book",Count:1b},PickupDelay:-1,Age:-32768}]}

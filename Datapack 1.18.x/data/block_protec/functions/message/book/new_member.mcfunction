@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"Vous ête maintenent membre d'une zone protégé par ","color":"green"},{"selector":"@a[tag=bp_selectAddM,limit=1]","color":"aqua"}]
+tellraw @a[tag=bp_selectAddM,limit=1] ["",{"selector":"@s","color":"aqua"},{"text":" fait maintenant partie des membres de cette zone et de se(s) extension(s)","color":"green"}]

@@ -1,0 +1,1 @@
+loot give @s loot block_protec:level_1

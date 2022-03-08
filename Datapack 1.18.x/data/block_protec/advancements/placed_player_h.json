@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:player_head",
+          "item": {
+            "nbt": "{SkullOwner:{Id:[I;-1288874565,278350816,-1403704286,346473726]}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "block_protec:defined_zones/find_player_head"
+    }
+  }
+  

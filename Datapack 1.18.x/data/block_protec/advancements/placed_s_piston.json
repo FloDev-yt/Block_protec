@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sticky_piston"
+      }
+    }
+  },
+  "rewards": {
+    "function": "block_protec:protec/look_s_piston/advancement"
+  }
+}
