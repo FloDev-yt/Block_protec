@@ -1,2 +1,0 @@
-execute unless score @s[gamemode=survival] g_id = @e[scores={bp_area=1..},distance=..0.1,limit=1] g_id run function block_protec:right_click/menu_not_ok
-execute if entity @s[tag=bp_selectRC] run function block_protec:right_click/check_ok

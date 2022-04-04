@@ -1,1 +1,0 @@
-tellraw @s ["","\n",{"text":"Vous n'êtes pas autorisé à ouvrir un conteneur dans une zone protégée","color":"red"}]

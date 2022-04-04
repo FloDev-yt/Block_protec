@@ -1,2 +1,0 @@
-tellraw @s {"text":"Le bloc principal est trop loin","color":"red","hoverEvent":{"action":"show_text","contents":{"text":"vous devez être à proximité du bloc principal pour gérer les membres"}}}
-tag @s remove bp_priTooFar

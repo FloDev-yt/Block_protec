@@ -1,1 +1,0 @@
-tellraw @s ["","\n",{"text":"Cette zone est trop près d'une autre dont vous n'êtes pas le propriétaire","color":"red","hoverEvent":{"action":"show_text","contents":["Vous devez laisser 13 blocs entre deux limites de zones"]}}]

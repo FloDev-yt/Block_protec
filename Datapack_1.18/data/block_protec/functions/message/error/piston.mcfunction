@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"Un piston ne peut peux ce trouver au bort d'une zone protégée","color":"red"}]

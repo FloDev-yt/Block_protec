@@ -1,2 +1,0 @@
-tellraw @s ["",{"text":"Il n y a pas d'autres joueus connectés","color":"red","hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"un joueur doit être connecté pour être ajouté"}]}}}]
-tag @s remove bp_addMembre

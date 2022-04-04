@@ -1,8 +1,0 @@
-execute positioned ~1 ~ ~ if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute positioned ~-1 ~ ~ if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute positioned ~ ~1 ~ if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute positioned ~ ~-1 ~ if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute positioned ~ ~ ~1 if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute positioned ~ ~ ~-1 if block ~ ~ ~ #block_protec:s_piston_moving unless entity @e[type=marker,name=bp_piston,tag=bp_s_piston,distance=..0.1] run summon marker ~ ~ ~ {CustomName:"\"bp_piston\"",Tags:["bp_s_piston","bp_pistonNew"]}
-execute as @e[type=marker,name=bp_piston,tag=bp_pistonNew,distance=..1.1] at @s run function block_protec:defined_zones/protec_border
-kill @s

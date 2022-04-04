@@ -1,1 +1,0 @@
-schedule function block_protec:global/craft_1t 1t

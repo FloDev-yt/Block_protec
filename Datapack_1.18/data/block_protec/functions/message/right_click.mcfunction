@@ -1,1 +1,0 @@
-tellraw @s {"text":"Fait un clique droit sur un Bloc de protection, \npour obtenir le livre Menu","italic":true,"color":"green"}

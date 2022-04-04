@@ -1,2 +1,0 @@
-scoreboard players add @e[type=marker,name=bp_border,distance=..0.1,limit=1] g_check 13
-execute store result entity @e[type=marker,name=bp_border,distance=..0.1,limit=1] Pos[0] double 1 run data get entity @s Pos[0]

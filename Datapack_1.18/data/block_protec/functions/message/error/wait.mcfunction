@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"Vous devez encore patienter ","color":"dark_red"},{"score":{"name":"@s","objective":"bp_timer"},"color":"red"},{"text":"s avant de recevoir un nouveau ","color":"dark_red"},{"nbt":"","block":"chorus_fruit","color":"dark_purple","hoverEvent":{"action":"show_item","value":"{id:\"minecraft:chorus_fruit\",Count:1}"}}]

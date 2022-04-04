@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"\n"},{"text":"ête vous sûr ? ","color":"dark_aqua"},{"text":"[Confirmer]","color":"green","clickEvent":{"action":"run_command","value":"/trigger help_blockProtec set 14"}}]

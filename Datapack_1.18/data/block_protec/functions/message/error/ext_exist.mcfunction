@@ -1,1 +1,0 @@
-tellraw @s {"text":"Il y a encore des extensions relié au bloc principal","color":"red","hoverEvent":{"action":"show_text","contents":{"text":"vous pouvez les supprimer ou déplacer le bloc principal "}}}
