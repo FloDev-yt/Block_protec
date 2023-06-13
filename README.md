@@ -105,7 +105,7 @@ Exemple :
 
 ## Téléchargement
 
-- [*Téléchargement pour Minecraft 1.18.2*](https://github.com/FloDev-yt/Block_protec/releases/download/v0.1/Block_protec_v0.1_MC-1.18_FR.zip)
+- [*Téléchargement pour Minecraft 1.18*](https://github.com/FloDev-yt/Block_protec/releases/download/Block_protec.MC-1.18_FR_v0.9.zip)
 
 ## Installation
 
