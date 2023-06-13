@@ -2,7 +2,9 @@
 
 ![icon](https://github.com/FloDev-yt/Block_protec/raw/assets/icon.png)
 
-Ce datapack donne la possibilité à n'importe quel joueur de fabriquer un nouveau bloc appelé : *Block protec lv1* qui protégera un carré de 11x11x11 centré sur ce bloc. Ce bloc pourra être amélioré afin d'étendre sa zone de protection. Dans cette zone, il est impossible pour les joueurs non autorisés de casser ou de poser des blocs, de blesser les entités passives ou d'ouvrir les contenaires.
+Ce datapack pour Java Edition donne la possibilité à n'importe quel joueur de fabriquer un nouveau bloc appelé : *Block protec lv1* qui protégera un carré de 11x11x11 centré sur ce bloc. Ce bloc pourra être amélioré afin d'étendre sa zone de protection. Dans cette zone, il est impossible pour les joueurs non autorisés de casser ou de poser des blocs, de blesser les entités passives ou d'ouvrir les contenaires.
+
+A noter que ce datapack ne nécessite **aucun Resource pack**
 
 
 ## Le Craft
@@ -105,9 +107,14 @@ Exemple :
 
 ## Téléchargement
 
-- [*Téléchargement pour Minecraft 1.18*](https://github.com/FloDev-yt/Block_protec/releases/download/Block_protec.MC-1.18_FR_v0.9.zip)
+- [**Téléchargement pour Minecraft 1.19.x et 1.20.x**](https://github.com/FloDev-yt/Block_protec/releases/download/v0.2/Block_protec_MC-1.19_FR_v0.2.zip)
+
+- [**Téléchargement pour Minecraft 1.18.x**](https://github.com/FloDev-yt/Block_protec/releases/download/v0.2/Block_protec_MC-1.18_FR_v0.2.zip)
+
 
 ## Installation
+
+[*Tutoriels/Installer un pack de données*](https://minecraft.fandom.com/fr/wiki/Tutoriels/Installer_un_pack_de_données)
 
 Si vous utilisez ce Datapack sur un serveur, vous devez activer les commandes block dans les options du serveur. Dans le fichier *server.properties*, modifiez la ligne suivante :
 
