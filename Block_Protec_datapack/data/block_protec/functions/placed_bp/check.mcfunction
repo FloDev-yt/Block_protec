@@ -4,7 +4,7 @@ scoreboard players operation @s g_id = @p[scores={bp_select=1}] g_id
 execute store result score @s g_Xcoords run data get entity @s Pos[0]
 execute store result score @s g_Zcoords run data get entity @s Pos[2]
 scoreboard players operation #bp_TheDisSave g_check = @s bp_area
-# 3 is a safety constant between two zones + (5*2 safeZone)
+# 13 is a safety constant between two zones
 scoreboard players add #bp_TheDisSave g_check 13
 # calculates 
 # max distanse

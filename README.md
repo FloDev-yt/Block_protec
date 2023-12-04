@@ -57,17 +57,17 @@ Limite visuelle de la zone de protection :
 - Un joueur non autorisé passe en mode Aventure (gamemode 3) dès qu'il se trouve à moins de 13 blocs d'une zone protégée (appelée la Zone intermédiaire), ce qui l'empêche de poser ou casser des blocs.
 - Le PvP est désactivé.
 - La TNT (activé), les minecarts TNT et les cristaux de l'Ender sont instantanément supprimés.
-- Toutes les entités passives sont protégées ([*Liste des entités protégées](https://github.com/FloDev-yt/Block_protec/blob/MC-1.18_FR/Block_protec/data/block_protec/tags/entity_types/entity_protec.json)).
+- Toutes les entités passives sont protégées ([*Liste des entités protégées](https://github.com/FloDev-yt/Block_protec/blob/MC-1.19_FR/Block_Protec_datapack/data/block_protec/tags/entity_types/entity_protec.json)).
 - Les entités protégées ne peuvent pas subir de dégâts de projectiles dans une zone protégée.
 - Les joueurs non autorisés ne peuvent pas lancer de potions qui infligent des malus.
 
 ## Zone intermédiaire
 
-Il s'agit d'une zone de 13 blocs après la limite de protection (limite visuelle), quelle que soit le niveau du bloc de protection. Il est possible depuis l'extérieur de cette zone de détruire des blocs dans la zone intermédiaire par différents moyens : la portée d'un joueur, la TNT, les pistons, etc. Par conséquent, les blocs dans cette zone ne sont pas protégés à 100%.
+Il s'agit d'une zone de 13 blocs après la limite de protection (limite visuelle), quelle que soit le niveau du bloc de protection. Il est possible depuis l'extérieur de cette zone de détruire des blocs dans la zone intermédiaire par différents moyens : la portée d'un joueur pour cassé des blocs, la TNT, les pistons, etc. Par conséquent, les blocs dans cette zone ne sont pas protégés à 100%.
 
 Dans cette zone :
 - Les pistons sont détruits afin d'éviter les attaques par machines volantes.
-- La TNT (activé), les minecarts TNT, les cristaux de l'Ender et les œufs sont instantanément supprimés.
+- La TNT (activé), les minecarts TNT, les cristaux de l'Ender ainsi que les œufs de poules sont instantanément supprimés.
 
 Exemple :
 
