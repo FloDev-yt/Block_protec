@@ -1,5 +1,6 @@
 {
   "values":[
-	"block_protec:init"
+	"block_protec:init",
+  "id:init"
   ]
 }

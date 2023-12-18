@@ -1,8 +1,6 @@
 schedule function block_protec:main_20t 20t
 # reset selectPlayer
 execute as @a[scores={bp_leaveGame=1..}] run function block_protec:global/leave_game
-# give Id
-execute as @a[gamemode=!adventure,advancements={block_protec:flag_id=false}] run function block_protec:global/set_id
 # armor_stand for right click
 execute as @e[scores={bp_area=1..},tag=!bp_closeRC] at @s if entity @a[gamemode=!adventure,scores={bp_idArea=1..},distance=..5] run function block_protec:right_click/armor_on
 execute as @e[scores={bp_area=1..},tag=bp_closeRC] at @s unless entity @a[gamemode=!adventure,scores={bp_idArea=1..},distance=..5] run function block_protec:right_click/armor_off
