@@ -1,6 +1,6 @@
 recipe give @s block_protec:block_protec_lv1
 
-tellraw @s ["",{"text":"\n"},{"text":"Bravo vous avez débloqué la recette du Block de protection","bold":true,"color":"dark_green"},{"text":"\n"},{"text":"le Data pack : "},{"text":"Block_protec","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://github.com/FloDev-yt/Block_protec"}},{"text":" rajoute la posibilité de crafter un block de protection qui une fois posé définie une zone qui protéger contre toutes les destructions des joueurs qui ne sont pas membre de votre zone"}]
+tellraw @s ["",{"text":"\n"},{"text":"Bravo vous avez débloqué la recette du Block de protection","bold":true,"color":"dark_green"},{"text":"\n"},{"text":"le Data pack : "},{"text":"Block_protec","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://github.com/FloDev-yt/Block_protec"},"hoverEvent":{"action":"show_text","contents":["https://github.com/FloDev-yt/Block_protec"]}},{"text":" rajoute la posibilité de crafter un block de protection qui une fois posé définie une zone qui protéger contre toutes les destructions des joueurs qui ne sont pas membre de votre zone"}]
 
 function block_protec:message/recipe
 
