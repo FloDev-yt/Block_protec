@@ -14,4 +14,4 @@ scoreboard players operation @s bp_nbExt = @e[scores={bp_area=1..},distance=..0.
 clear @s minecraft:written_book{bpMenu:1}
 loot give @s loot block_protec:book_menu
 # item remove
-execute as @e[scores={bp_area=1..},tag=bp_pri] if score @s bp_idArea = @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idArea at @s run kill @e[name=bp_item,distance=..0.3]
+execute as @e[scores={bp_area=1..},tag=bp_pri] if score @s bp_idArea = @e[scores={bp_area=1..},distance=..0.1,limit=1] bp_idArea at @s run execute as @e[name=bp_item,distance=..0.4] run data merge entity @s {Age:6000,Duration:1}
