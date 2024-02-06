@@ -1,9 +1,6 @@
 schedule function block_protec:main_20t 20t
 # reset selectPlayer
 execute as @a[scores={bp_leaveGame=1..}] run function block_protec:global/leave_game
-# armor_stand for right click
-execute as @e[scores={bp_area=1..},tag=!bp_closeRC] at @s if entity @a[gamemode=!adventure,scores={bp_idArea=1..},distance=..5] run function block_protec:right_click/armor_on
-execute as @e[scores={bp_area=1..},tag=bp_closeRC] at @s unless entity @a[gamemode=!adventure,scores={bp_idArea=1..},distance=..5] run function block_protec:right_click/armor_off
 # timer
 scoreboard players remove @a[scores={bp_timer=1..}] bp_timer 1
 execute as @a[scores={bp_timer=0,bp_idAreaBook=1..}] run scoreboard players reset @s bp_idAreaBook
